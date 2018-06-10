@@ -74,6 +74,8 @@ notification.processNotification = function(userId,productId,orderId,skuId,notif
 
 notification.sendNotification = function(filledTemplate,User){
     console.log('notification sent');
+     console.log('SMS sent');
+     console.log('push notification sent');
 }
 
 notification.populateTemplate = function(template,User,Order,Invoice){
