@@ -12,4 +12,4 @@ consumer.js
 
 consumer-notification.js
 - This is also an example of consumer to the topic 'Order'.
-- This 
+- This gets User,Order,Invoice and sends emails,message,push notification.
